@@ -1,9 +1,9 @@
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     body{
     margin: 0px;
     padding: 0px;
 
-    /* background: linear-gradient(180deg, hsla(58, 98%, 83%, 1) 50%, hsla(0, 0%, 100%, 1) 50%); */
+    background: linear-gradient(180deg, hsla(58, 98%, 83%, 1) 50%, hsla(0, 0%, 100%, 1) 50%);
 
 
 
@@ -11,30 +11,34 @@
     font-size: 1.5em;
     background-image: url(Untitled.png),linear-gradient(180deg, hsla(58, 98%, 83%, 1) 10%, hsla(0, 0%, 100%, 1) 90%);;
     background-repeat: no-repeat;
-    background-position: center;
-    background-position-y:-30px ;
+    background-position:
+  center, Position for the existing image
+  0% 0%; Position for the gradient
+    background-position-y:-60px ;
+    width:max-content;
 }
 .list{
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
     padding: 0px;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-
+    width: 100vw;
     margin: 0px;
     background-color: #2E5090;
 }
 .li{
     display: inline-block;
-    font-size: 0.8em;
+    font-size: 0.5em;
+    margin: 0.5em;
   }
 .title{
     display: flex;
     justify-content: space-evenly;
     color: #fefba9;
-    margin: 0.5em;
+    margin: 0.4em;
 }
 .stanton{
     text-align: center;
@@ -94,9 +98,82 @@ a{
     border-radius: 0.2em;
 }
 }
-/* .main{
+.main{
     display: grid;
     grid-template-columns: 1fr 0.5fr; Two equal columns
     grid-template-rows: 1fr 0.5fr; Two equal rows
     gap: 10px; 
 } */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    background-image: url(Untitled.png), linear-gradient(180deg, hsla(58, 98%, 83%, 1) 10%, hsla(0, 0%, 100%, 1) 90%);
+    background-repeat: no-repeat;
+    background-position: center, 0% 0%;
+    background-position-y: -90px ;
+    width: 100%;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 100%;
+    margin: 0px;
+    background-color: #2E5090;
+}
+
+.li {
+    display: inline-block;
+    font-size: 0.5em;
+    margin: 0.5em;
+    color: #fefba9;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #fefba9;
+    margin: 0.4em;
+}
+
+.stanton, .high, .insititute, .of, .music {
+    text-align: center;
+    margin: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #fefba9;
+}
+
+.main {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.box2, .box3 {
+    height: 50em;
+    width: 12em;
+    background-color: #fefba9;
+    border: solid 2px #305cde;
+    box-shadow: 0px 0px 10px 0px #305cde;
+    margin: 0.5em;
+    border-radius: 0.2em;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 1em; /* Adjust font size for smaller screens */
+    }
+}
