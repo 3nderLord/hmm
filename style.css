@@ -2,10 +2,14 @@
     body{
     margin: 0px;
     padding: 0px;
-    background-color: #fefba9;
+
+    /* background: linear-gradient(180deg, hsla(58, 98%, 83%, 1) 50%, hsla(0, 0%, 100%, 1) 50%); */
+
+
+
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
-    background-image: url(Untitled.png);
+    background-image: url(Untitled.png),linear-gradient(180deg, hsla(58, 98%, 83%, 1) 10%, hsla(0, 0%, 100%, 1) 90%);;
     background-repeat: no-repeat;
     background-position: center;
     background-position-y:-30px ;
@@ -73,18 +77,21 @@ a{
 }
 .box2{
     height: 50em;
-    width: 15em;
+    width: 12em;
     background-color: #fefba9;
     border: solid 2px #305cde;
-    box-shadow: 6px 6px 6px #305cde;
+    box-shadow: 0px 0px 10px 0px #305cde;
     margin: 0.5em;
     border-radius: 0.2em;
 }
 .box3{
-    height: 50px;
-    width: auto;
+    height: 50em;
+    width: 12em;
     background-color: #fefba9;
+    border: solid 2px #305cde;
+    box-shadow: 0px 0px 10px 0px #305cde;
     margin: 0.5em;
+    border-radius: 0.2em;
 }
 }
 /* .main{
