@@ -16,15 +16,21 @@
     justify-content: space-evenly;
     text-align: center;
     padding: 0px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+    margin: 0px;
+    background-color: #2E5090;
 }
 .li{
     display: inline-block;
+    font-size: 0.8em;
   }
 .title{
     display: flex;
     justify-content: space-evenly;
     color: #fefba9;
-    margin: 1em;
+    margin: 0.5em;
 }
 .stanton{
     text-align: center;
@@ -70,8 +76,9 @@ a{
     width: 15em;
     background-color: #fefba9;
     border: solid 2px #305cde;
-    box-shadow: 0 4px 6px #305cde;
+    box-shadow: 6px 6px 6px #305cde;
     margin: 0.5em;
+    border-radius: 0.2em;
 }
 .box3{
     height: 50px;
