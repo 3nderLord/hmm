@@ -177,6 +177,16 @@ a {
     margin: 0.5em;
     border-radius: 0.2em;
 }
+.copyright{
+    float: left;
+    color: white;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:10px ;
+    font-size: 0.6em;
+    background: linear-gradient(180deg, white 1%, #193A9F 99%)
+}
 
 @media only screen and (max-width: 768px) {
     body {
